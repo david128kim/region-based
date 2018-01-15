@@ -1,0 +1,17 @@
+region1:
+	if(Global > 0) {
+  	Global *= 2;
+	}
+	else {
+	Global += 2;
+	}
+/* end of branch */
+region2:
+	if(Global > 10) {
+	Global -= 10;
+	}
+	else {
+	Global = 0;
+	}
+/* end of branch */
+main

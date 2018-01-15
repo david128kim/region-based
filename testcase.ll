@@ -1,0 +1,37 @@
+  %0 = load i32, i32* @Global, align 4, !tbaa !2
+    %mul = shl nsw i32 %0, 1
+   store i32 %mul, i32* @Global, align 4, !tbaa !2
+   %0 = load i32, i32* @Global, align 4, !tbaa !2
+    %sub = add nsw i32 %0, -10
+   store i32 %sub, i32* @Global, align 4, !tbaa !2
+   %0 = load i32, i32* @Global, align 4, !tbaa !2
+   %0 = load i32, i32* @Global, align 4, !tbaa !2
+    %mul = shl nsw i32 %0, 1
+   store i32 %mul, i32* @Global, align 4, !tbaa !2
+    %sub = add nsw i32 %0, -10
+   store i32 %sub, i32* @Global, align 4, !tbaa !2
+   %0 = load i32, i32* @Global, align 4, !tbaa !2
+   %0 = load i32, i32* @Global, align 4, !tbaa !2
+    %sub = add nsw i32 %0, -10
+   store i32 %sub, i32* @Global, align 4, !tbaa !2
+    %mul = shl nsw i32 %0, 1
+   store i32 %mul, i32* @Global, align 4, !tbaa !2
+   %0 = load i32, i32* @Global, align 4, !tbaa !2
+   %0 = load i32, i32* @Global, align 4, !tbaa !2
+    %mul = shl nsw i32 %0, 1
+   store i32 %mul, i32* @Global, align 4, !tbaa !2
+    %sub = add nsw i32 %0, -10
+   store i32 %sub, i32* @Global, align 4, !tbaa !2
+   %0 = load i32, i32* @Global, align 4, !tbaa !2
+   %0 = load i32, i32* @Global, align 4, !tbaa !2
+    %sub = add nsw i32 %0, -10
+   store i32 %sub, i32* @Global, align 4, !tbaa !2
+    %mul = shl nsw i32 %0, 1
+   store i32 %mul, i32* @Global, align 4, !tbaa !2
+   %0 = load i32, i32* @Global, align 4, !tbaa !2
+    %sub = add nsw i32 %0, -10
+   store i32 %sub, i32* @Global, align 4, !tbaa !2
+   %0 = load i32, i32* @Global, align 4, !tbaa !2
+    %mul = shl nsw i32 %0, 1
+   store i32 %mul, i32* @Global, align 4, !tbaa !2
+ 
